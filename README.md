@@ -47,7 +47,7 @@ A Laravel + Vue app for fetching and displaying weather data from the Met Office
 2. **Configure Your Environment:**
     - Set your Met Office API key and DB details in `.env`:
 
-3. **finish up:**
+3. **Finish Up:**
     ```sh
     php artisan key:generate
     php artisan migrate
