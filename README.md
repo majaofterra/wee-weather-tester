@@ -25,7 +25,7 @@ A Laravel + Vue app for fetching and displaying weather data from the Met Office
 
 ## Requirements
 
-- PHP 8.1+
+- PHP 8.2+
 - Composer
 - Node.js & npm
 - MySQL or other supported database
@@ -34,19 +34,19 @@ A Laravel + Vue app for fetching and displaying weather data from the Met Office
 
 ## Installation
 
-1. **Clone the repository:**
+1. **The Setup:**
     ```sh
-    git clone https://github.com/yourusername/wee-beastie.git
+    git clone https://github.com/majaofterra/wee-weather-tester.git
     cd wee-beastie
     composer install
     npm install
     cp .env.example .env
     ```
 
-2. **Copy and configure your environment:**
+2. **Configure Your Environment:**
     - Set your Met Office API key and DB details in `.env`:
 
-3. **Generate application key:**
+3. **finish up:**
     ```sh
     php artisan key:generate
     php artisan migrate
@@ -55,9 +55,10 @@ A Laravel + Vue app for fetching and displaying weather data from the Met Office
     php artisan serve
     ```
 
-4. **(Optional) Seed the database:**
+4. **(Optional) Seed the database and config docker:**
     ```sh
     php artisan db:seed
+    vim Dockerfile
     ```
 
 ---
