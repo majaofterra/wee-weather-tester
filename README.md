@@ -25,6 +25,7 @@ A Laravel + Vue app for fetching and displaying weather data from the Met Office
 
 ## Requirements
 
+- Met Office API Details
 - PHP 8.2+
 - Composer
 - Node.js & npm
