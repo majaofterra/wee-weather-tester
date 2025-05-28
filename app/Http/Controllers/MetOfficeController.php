@@ -33,8 +33,10 @@ class MetOfficeController extends Controller
         $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
         curl_close($ch);
 
-        if ($httpCode != 200)
+        if ($httpCode != 200) {
+            echo "Error fetching weather data: HTTP $httpCode\n";
             return false;
+        }
 
         Cache::put('weather_response', json_decode($response, true), now()->addHour(6));
 

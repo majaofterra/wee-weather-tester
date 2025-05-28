@@ -76,6 +76,9 @@ class HomeController extends Controller
             }
         }
 
+        if (empty($dundee))
+            return 'Dundee not found, run the cache.';
+
         return Inertia::render('Welcome', [
             'canLogin' => Route::has('login'),
             'canRegister' => Route::has('register'),
