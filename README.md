@@ -37,7 +37,7 @@ A Laravel + Vue app for fetching and displaying weather data from the Met Office
 1. **The Setup:**
     ```sh
     git clone https://github.com/majaofterra/wee-weather-tester.git
-    cd wee-beastie
+    cd wee-weather-tester/
     composer install
     npm install
     cp .env.example .env
