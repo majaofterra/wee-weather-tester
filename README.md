@@ -7,9 +7,9 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-# Wee Beastie
+# Wee Dundee Weather App
 
-A Laravel + Vue app for fetching and displaying weather data from the Met Office API for various "Dundee" locations around the world. By Jamie MacDonald
+A Laravel + Vue app for fetching and displaying 5 days of weather data from the Met Office API for various "Dundee" locations around the world. By Jamie MacDonald
 
 ---
 
